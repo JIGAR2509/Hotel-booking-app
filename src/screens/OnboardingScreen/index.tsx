@@ -48,13 +48,13 @@ const SwiperScreen = () => {
             description={en.onboarding.screen2.description}
           />
         </Text>
-        <Text>
+        <View>
           <SwiperSlide
             image={require('/Users/sky9two/Desktop/Project/HotelBooking/src/assets/images/7d57b0f92d41330885df1adf35ad9bb4.jpg')}
             title={en.onboarding.screen3.title}
             description={en.onboarding.screen3.description}
           />
-        </Text>
+        </View>
       </Swiper>
       <View style={styles.btnContainer}>
         <PrimaryButton

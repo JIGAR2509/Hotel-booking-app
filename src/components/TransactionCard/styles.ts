@@ -3,7 +3,6 @@ import Colors from '../../utils/Colors/colors';
 
 const styles = StyleSheet.create({
   container: {
-    flexDirection: 'column',
     height: 'auto',
     marginHorizontal: 20,
     paddingVertical: 15,
@@ -58,7 +57,6 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   textContainer: {
-    flexDirection: 'column',
     gap: 10,
   },
   hotelName: {
@@ -76,7 +74,6 @@ const styles = StyleSheet.create({
   },
   priceContainer: {
     marginTop: 5,
-    flexDirection: 'column',
     gap: 6,
   },
   priceText: {

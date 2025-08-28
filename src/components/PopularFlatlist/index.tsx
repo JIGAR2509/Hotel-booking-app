@@ -1,8 +1,8 @@
 import { Image } from 'react-native';
 import React from 'react';
-import { HotelImagePair } from './data & type ';
 import { View } from 'react-native';
 import styles from './styles';
+import { HotelImagePair } from './types';
 
 type PopularHotelProps = {
   item: HotelImagePair;

@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
   btnContainer: {
     marginTop: 40,
     alignItems: 'center',
-    gap: 5,
+    gap: 15,
     paddingBottom: 10,
   },
 });

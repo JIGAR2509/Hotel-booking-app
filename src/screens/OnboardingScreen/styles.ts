@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
     paddingBottom: 10,
     alignItems: 'center',
-    gap: 5,
+    gap: 15,
   },
 });
 

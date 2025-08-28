@@ -67,6 +67,7 @@ const VerifyAccount = ({}) => {
         />
       </View>
       <FormCompleteSheet
+        sheetHeight={600}
         image={Images.created}
         title={en.success.title}
         description={en.success.description}

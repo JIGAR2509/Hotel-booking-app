@@ -1,10 +1,6 @@
-export type HotelImagePair = {
-  key: string;
-  images: [string, string];
-};
+import { HotelImagePair } from './types';
 
-
- export const hotelImagePairs: HotelImagePair[] = [
+export const hotelImagePairs: HotelImagePair[] = [
   {
     key: '1',
     images: [
@@ -41,5 +37,3 @@ export type HotelImagePair = {
     ],
   },
 ];
-
-

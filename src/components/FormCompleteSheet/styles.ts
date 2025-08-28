@@ -4,8 +4,9 @@ import Colors from '../../utils/Colors/colors';
 const styles = StyleSheet.create({
   img: {
     alignSelf: 'center',
-    height: 270,
+    height: 240,
     width: '80%',
+    resizeMode: 'contain',
   },
   text: {
     fontSize: 27,
@@ -28,6 +29,7 @@ const styles = StyleSheet.create({
   sheetButton: {
     marginVertical: 30,
     alignItems: 'center',
+    paddingBottom: 25,
   },
 });
 

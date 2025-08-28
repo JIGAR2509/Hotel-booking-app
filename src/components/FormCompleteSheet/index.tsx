@@ -10,6 +10,7 @@ export type FormCompleteSheetProps = {
   onClose: () => void;
   image: string;
   title: string;
+  sheetHeight?: number;
   description: string;
   buttonText: string;
   onPress?: () => void;
@@ -21,6 +22,7 @@ const FormCompleteSheet = ({
   image,
   title,
   description,
+  sheetHeight,
   onPress,
   buttonText,
 }: FormCompleteSheetProps) => {
@@ -29,8 +31,10 @@ const FormCompleteSheet = ({
       isOpen={isOpen}
       onClose={onClose}
       backGroundColor={Colors.white}
+      sheetHeight={sheetHeight}
     >
       <View>
+        {/* change */}
         <Image source={image as ImageProps} style={styles.img} />
         <View style={styles.innerConatiner}>
           <Text style={styles.text}>{title}</Text>

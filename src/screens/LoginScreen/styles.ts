@@ -16,8 +16,8 @@ const styles = StyleSheet.create({
     fontWeight: 500,
   },
   inputContainer: {
-    marginHorizontal: 5,
-    marginTop: 50,
+    paddingHorizontal: 5,
+    marginTop: 35,
     gap: 20,
   },
   forgotButton: {
@@ -44,8 +44,7 @@ const styles = StyleSheet.create({
   },
   socialMediaButton: {
     gap: 17,
-    paddingHorizontal: 20,
-
+    paddingHorizontal: 25,
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'row',

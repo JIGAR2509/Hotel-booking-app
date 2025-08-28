@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
   buttonText: {
     color: Colors.primary,
     fontSize: 16,
-    fontWeight: 500,
+    fontWeight: 700,
   },
 });
 

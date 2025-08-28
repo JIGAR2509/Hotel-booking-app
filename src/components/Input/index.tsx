@@ -44,9 +44,7 @@ const Input: FunctionComponent<InputProps> = ({
       <View
         style={[
           styles.inputContainer,
-          isFocused || value.length > 0
-            ? styles.focusedInput
-            : styles.notFocusedInput,
+          isFocused ? styles.focusedInput : styles.notFocusedInput,
           viewStyle,
         ]}
       >
@@ -75,11 +73,7 @@ const Input: FunctionComponent<InputProps> = ({
             <FontAwesomeIcon
               icon={endIcon}
               size={22}
-              color={
-                isFocused || value.length > 0
-                  ? Colors.primary
-                  : Colors.secondary
-              }
+              color={isFocused ? Colors.primary : Colors.secondary}
               style={styles.endIcon}
             />
           </TouchableOpacity>

@@ -53,4 +53,5 @@ export type HomescreenParams = {
   couponScreen: undefined;
   settingScreen: undefined;
   nestedSearchScreen: undefined;
+  apiScreen: undefined;
 };

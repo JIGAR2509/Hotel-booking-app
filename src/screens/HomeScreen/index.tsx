@@ -15,11 +15,11 @@ import StayLocations from '../../components/StayLocations';
 import hotels from '../../components/HotelFlatlist/data';
 import HotelFlatlist from '../../components/HotelFlatlist';
 import PopularHotelsFlatlist from '../../components/PopularFlatlist';
-import { hotelImagePairs } from '../../components/PopularFlatlist/data & type ';
 import Layout from '../../components/Layout';
 import Colors from '../../utils/Colors/colors';
 import { HomescreenParams } from '../../navigation/types';
 import { en } from '../../translations/en';
+import { hotelImagePairs } from '../../components/PopularFlatlist/data';
 const HomeScreen = () => {
   const [search, setSearch] = useState('');
 
@@ -66,7 +66,10 @@ const HomeScreen = () => {
             startIcon={faMagnifyingGlass as IconProp}
             viewStyle={styles.input}
           />
-          <TouchableOpacity style={styles.searchIcon}>
+          <TouchableOpacity
+            style={styles.searchIcon}
+            onPress={() => navigation.navigate(Routes.apiScreen)}
+          >
             <FontAwesomeIcon
               icon={faSliders as IconProp}
               size={20}

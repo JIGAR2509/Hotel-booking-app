@@ -6,6 +6,7 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.primary,
     paddingVertical: 28,
     borderRadius: 14,
+    width: '100%',
   },
   buttonText: {
     textAlign: 'center',
