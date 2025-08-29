@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: 'rgba(0, 0, 0, 0.6)',
     padding: 10,
-    borderRadius: 20,
+    borderRadius: 25,
   },
   infoContainer: {
     padding: 16,
